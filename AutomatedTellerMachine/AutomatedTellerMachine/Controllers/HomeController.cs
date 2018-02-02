@@ -8,10 +8,13 @@ namespace AutomatedTellerMachine.Controllers
 {
     public class HomeController : Controller
     {
+        //GET /home/index
         public ActionResult Index()
         {
             return View();
         }
+
+        //GET /home/about
 
         public ActionResult About()
         {
