@@ -26,6 +26,10 @@ namespace AspMVC_ATM.Controllers
 
             return View();
         }
-      
+        //create an alias for the about page
+        public ActionResult Foo()
+        {
+            return View("About");
+        }
     }
 }
